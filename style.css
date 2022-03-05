@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+:root {
+    --primary-color: #160040;
+    --secondary-color: #4C0070;
+    --tertiary-color: #79018C;
+    --accent-color: #9A0680;
+}
+
+* {
+    /* If we add any padding or border onto an element it does not affect the width of the element */
+    box-sizing: border-box; 
+}
+
+body {
+    background-color: var(--primary-color);
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+}
+
+nav {
+    background-color: var(--accent-color);
+    height:  70px;
+    border: solid black 1px;
+}
+
+section {
+    background-color: var(--secondary-color);
+    height:  200px;
+    border: solid black 1px;
+}
+
+footer {
+    background-color: var(--tertiary-color);
+    height:  200px;
+    border: solid black 1px;
+}
+
+.hero {
+    display: flex;
+    flex-wrap: wrap;
+    height: 80vh;
+    justify-content: space-around;
+    align-items: center;
+    letter-spacing: 3px;
+    position: relative;
+}
+
+.hero_left {
+    /* border: solid white 1px; */
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 25rem;
+}
+
+.hero_name {
+    font-family: 'Caveat', cursive;
+    font-size: 4.5rem;
+    letter-spacing: 20px;
+    color: #C4B454;
+    text-transform: uppercase;
+}
+
+
+.hero_mid {
+    /* border: solid white 1px; */
+    margin-bottom: 100px;
+}
+
+.hero_mid img {
+    border-radius: 50px;
+    -webkit-box-reflect: below 0px linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.4));
+    height: 350px;
+}
+
+.hero_right {
+    /* border: solid white 1px; */
+    font-family: 'Caveat', cursive;
+    font-size: 1.7rem;
+    text-align: center;
+    padding: 10px;
+    margin-top: 25rem;
+}
