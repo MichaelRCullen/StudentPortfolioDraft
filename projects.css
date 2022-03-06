@@ -1,43 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
 
-:root {
-    --primary-color: #160040;
-    --secondary-color: #4C0070;
-    --tertiary-color: #79018C;
-    --accent-color: #9A0680;
-}
-
-* {
-    /* If we add any padding or border onto an element it does not affect the width of the element */
-    box-sizing: border-box;
-    /* font-size: 10px; */
-}
-
-body {
-    background-color: var(--primary-color);
-    color: #fff;
-    font-family: 'Raleway', sans-serif;
-    margin: 0;
-}
-
-nav {
-    background-color: var(--accent-color);
-    height:  70px;
-    border: solid black 1px;
-}
-
-
-footer {
-    background-color: var(--tertiary-color);
-    height:  200px;
-    border: solid black 1px;
-}
 
 p {
     margin: 0;
     font-size: 2rem;
 }
+
+
+.subtext {
+    font-size: 1.1rem;
+}
+
+
 
 .projects {
     display: flex;
@@ -45,6 +18,15 @@ p {
     text-align: center;
     padding: 40px;
 }
+
+.projects h2 {
+    font-size: 2.5rem;
+}
+
+.projects h3 {
+    font-size: 1.75rem;
+}
+
 
 .project-container {
     display: flex;
@@ -55,7 +37,20 @@ p {
 }
 
 .project-card {
-    width: 300px;
-    height: 500px;
+    width: 400px;
+    height: 600px;
     box-shadow: 5px 5px 20px var(--accent-color);
+    margin: 10px;
+}
+
+.project-image {
+    margin-top: 25px;
+    width: 20rem;
+    border-radius: 125px;
+}
+
+
+hr {
+    margin-left: 20px;
+    margin-right: 20px;
 }
